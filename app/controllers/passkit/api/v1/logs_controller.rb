@@ -1,5 +1,5 @@
 module Passkit
-  module Api
+  module API
     module V1
       class LogsController < ActionController::API
         def create
