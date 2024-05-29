@@ -1,5 +1,5 @@
 module Passkit
-  module API
+  module Api
     module V1
       # TODO: check with authentication_token
       # This Class Implements the Apple PassKit API

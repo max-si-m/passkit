@@ -1,5 +1,5 @@
 module Passkit
-  module API
+  module Api
     module V1
       class PassesController < ActionController::API
         before_action :decrypt_payload, only: :create
