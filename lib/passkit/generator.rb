@@ -10,7 +10,7 @@ module Passkit
     end
 
     def generate_and_sign
-      @pass.instance.prepare_files(@pass.pass_path)
+      @pass.instance.prepare_files
       check_necessary_files
       create_temporary_directory
       copy_pass_to_tmp_location
