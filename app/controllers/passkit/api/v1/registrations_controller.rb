@@ -49,7 +49,7 @@ module Passkit
         # @return Otherwise, returns the appropriate standard HTTP status.
         def destroy
           registrations = @pass.registrations.where(passkit_device_id: params[:device_id])
-          registrations.delete_all
+          registrations.destroy_all
           render json: {}, status: :ok
         end
 
